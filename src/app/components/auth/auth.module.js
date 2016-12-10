@@ -19,10 +19,11 @@ angular
   .config(function ($firebaseRefProvider) {
 
     var config = {
-      apiKey: "AIzaSyCsNISt3dFx7dy5AImIIk62jDDd0OLvZK0",
-      authDomain: "contacts-manager-e486f.firebaseapp.com",
-      databaseURL: "https://contacts-manager-e486f.firebaseio.com",
-      storageBucket: "contacts-manager-e486f.appspot.com",
+        apiKey: "AIzaSyDjZvVcroCvsjXp4_-ljp_HvFR4YjkZsNU",
+        authDomain: "eldercare-e6bc5.firebaseapp.com",
+        databaseURL: "https://eldercare-e6bc5.firebaseio.com",
+        storageBucket: "eldercare-e6bc5.appspot.com",
+        messagingSenderId: "667496663057"
     };
 
     $firebaseRefProvider

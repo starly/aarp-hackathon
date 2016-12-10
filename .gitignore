@@ -1,4 +1,3 @@
-dist
 node_modules
 .DS_Store
 .tmp
@@ -8,3 +7,4 @@ node_modules
 .idea
 npm-debug.log
 templates.js
+dist

@@ -18,6 +18,8 @@ angular
     'components.contact',
     'components.auth',
       'components.transactions',
-      'components.accounts'
+      'components.accounts',
+      'components.services'
+
 
   ]);

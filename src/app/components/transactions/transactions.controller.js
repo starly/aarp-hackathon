@@ -1,5 +1,8 @@
-function TransactionsController($state) {
+function TransactionsController($state, BBVAService) {
   var ctrl = this;
+
+    BBVAService.getTransactions();
+
   // ctrl.$onInit = function () {
   //   ctrl.error = null;
   //   ctrl.user = {
