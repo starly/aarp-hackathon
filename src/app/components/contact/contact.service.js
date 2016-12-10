@@ -20,6 +20,7 @@ function ContactService(AuthService, $firebaseRef, $firebaseArray, $firebaseObje
   };
 }
 
+
 /**
  * @ngdoc service
  * @name ContactService
