@@ -1,26 +1,33 @@
 function AppSidebarController() {
   var ctrl = this;
   ctrl.contactTags = [{
-    label: 'All contacts',
+    label: 'Accounts',
     icon: 'star',
-    state: 'none'
+    state: 'accounts'
   }, {
-    label: 'Friends',
+    label: 'Transactions',
     icon: 'people',
-    state: 'friends'
+    state: 'transactions'
   }, {
-    label: 'Family',
+    label: 'Attorney',
     icon: 'child_care',
     state: 'family'
   }, {
-    label: 'Acquaintances',
+    label: 'Assets',
     icon: 'accessibility',
     state: 'acquaintances'
   }, {
-    label: 'Following',
+    label: 'Frauds',
     icon: 'remove_red_eye',
     state: 'following'
   }];
+
+
+
+
+
+
+
 }
 
 /**

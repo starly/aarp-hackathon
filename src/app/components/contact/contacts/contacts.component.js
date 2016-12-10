@@ -14,7 +14,7 @@ angular
     $stateProvider
       .state('contacts', {
         parent: 'app',
-        url: '/contacts?filter',
+        url: '/home',
         component: 'contacts',
         params: {
           filter: {
@@ -29,5 +29,17 @@ angular
             return $transition$.params();
           }
         }
-      });
+      }).state('accounts', {
+          parent: 'app',
+          url: '/accounts',
+          component: 'accounts',
+
+      })
+        .state('transactions', {
+            parent: 'app',
+            url: '/transactions',
+            component: 'transactions',
+
+        })
+    ;
   });

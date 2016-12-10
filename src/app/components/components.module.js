@@ -16,5 +16,8 @@
 angular
   .module('components', [
     'components.contact',
-    'components.auth'
+    'components.auth',
+      'components.transactions',
+      'components.accounts'
+
   ]);
