@@ -1,16 +1,28 @@
 
 
-TODO: transactions
+<h2>Transactions</h2>
 
 
-TODO: show transactions list
+{{ctrl.transactions}}
+<div ng-repeat="transaction in ctrl.transactions track by $index">
+    {{transaction.amount}}
+    {{transaction.description}}
+    {{transaction.posted_balance}}
+    {{transaction.posted_date}}
+
+</div>
+{{transactions}}
 
 
-TODO: show transaction fraud --->
-
-
-
-
-
-~~~~~~~~~~~~~~
-show it in fraud list
+amount
+:
+-1
+description
+:
+"Fee on account 0000001012"
+posted_balance
+:
+1000335
+posted_date
+:
+"2016-12-09"

@@ -19,7 +19,8 @@ angular
     'components.auth',
       'components.transactions',
       'components.accounts',
-      'components.services'
-
-
+      'components.services',
+      'components.frauds',
+      'components.transactions',
+      'components.attorney'
   ]);

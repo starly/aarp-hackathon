@@ -41,5 +41,21 @@ angular
             component: 'transactions',
 
         })
+        .state('attorney', {
+            parent: 'app',
+            url: '/attorney',
+            component: 'attorney',
+        })
+        .state('assets', {
+            parent: 'app',
+            url: '/assets',
+            component: 'assets',
+        })
+        .state('frauds', {
+            parent: 'app',
+            url: '/frauds',
+            component: 'frauds',
+
+        })
     ;
   });

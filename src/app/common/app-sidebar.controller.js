@@ -11,21 +11,16 @@ function AppSidebarController() {
   }, {
     label: 'Attorney',
     icon: 'child_care',
-    state: 'family'
+    state: 'attorney'
   }, {
     label: 'Assets',
     icon: 'accessibility',
-    state: 'acquaintances'
+    state: 'assets'
   }, {
     label: 'Frauds',
     icon: 'remove_red_eye',
-    state: 'following'
+    state: 'frauds'
   }];
-
-
-
-
-
 
 
 }
